@@ -1,8 +1,14 @@
-### 相場データと、手元で使うツールを Python で作っています
+### Laravel で、投資分析サイトを公開しています
 
-日本在住の Kamimura Yuki です。為替・米国株の分析画面と、日常で使う小さなアプリを公開しています。
+日本在住の Kamimura Yuki です。日本株・米国株・為替の日足とテクニカルを、一つの画面で見比べられるサイトを公開しています。
+
+**[trade-information](https://trade-information.laravel.cloud/Meigara)**
 
 ## 作品
+
+**[trade-information](https://trade-information.laravel.cloud/Meigara)**  
+Laravel で作ってリリースした投資分析サイトです。約 1.9 万銘柄をコードや企業名で絞り込み、銘柄ごとのテクニカル判断と購入金額の試算、主要為替レート、市場の取引ルールを見られます。  
+`Laravel` · `PHP`
 
 **[FX 為替マーケットダッシュボード](https://github.com/key-pro/streamlit)**  
 26通貨ペアの価格・変動率と、SMA / RSI / MACD / 一目均衡表などのテクニカル指標を一つの画面で見られます。米国株版は `main_us_stocks.py` から起動します。  
@@ -18,9 +24,9 @@ Docker 上で動かす Django / Django REST framework の構成です。株価�
 
 ## 使っている技術
 
-Python を中心に、Web とデータ可視化を往復しています。
+公開サイトは Laravel、分析画面と手元のツールは Python で作っています。
 
-`Python` · `Streamlit` · `pandas` · `Plotly` · `Django` · `Docker` · `Java` · `TypeScript` · `React`
+`Laravel` · `PHP` · `Python` · `Streamlit` · `pandas` · `Plotly` · `Django` · `Docker` · `Java` · `TypeScript` · `React`
 
 ## これまで
 
@@ -28,7 +34,8 @@ Python を中心に、Web とデータ可視化を往復しています。
 | --- | --- |
 | 2022 | HTML / CSS、React + TypeScript、Java、Django で Web とアプリの基礎を一通り作る |
 | 2024 | Django を Docker 化し、株価データを扱う構成に広げる |
-| 2025–2026 | PDF 統合アプリと、FX・米国株の Streamlit ダッシュボード |
+| 2025 | PDF 統合アプリと、FX・米国株の Streamlit ダッシュボード |
+| 2026 | Laravel で投資分析サイト [trade-information](https://trade-information.laravel.cloud/Meigara) をリリース |
 
 ## GitHub
 
