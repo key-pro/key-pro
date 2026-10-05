@@ -16,6 +16,9 @@
 
 <img src="https://skillicons.dev/icons?i=laravel,php,python,django,docker,mysql,react,ts,java&theme=dark" alt="Laravel, PHP, Python, Django, Docker, MySQL, React, TypeScript, Java">
 
+<img src="assets/marquee.gif" alt="Laravel、PHP、Python、Streamlit、Django、Docker、React、TypeScript、Java が流れる" width="100%">
+<img src="assets/equalizer.gif" alt="高低が入れ替わるバー" width="100%">
+
 </div>
 
 日本在住の Kamimura Yuki です。日本株から海外株、為替まで、日足とテクニカルを一つの画面で見比べられるようにしています。公開しているサイトは Laravel、分析用の画面は Python で作っています。
@@ -37,6 +40,8 @@
 | アジア | 日本株、香港株 |
 | アメリカ | 米国株、カナダ株 |
 | 欧州 | 英国株、ドイツ株 |
+
+<img src="assets/divider.gif" alt="" width="100%">
 
 ## 分析用に作った画面
 
@@ -67,6 +72,8 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 | API と実行環境 | Django REST framework、Docker、MySQL |
 | 画面の基礎 | React、TypeScript、styled-components、Java |
 
+<img src="assets/divider.gif" alt="" width="100%">
+
 ## これまで
 
 | 時期 | 内容 |
@@ -80,5 +87,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 
 <img src="https://github-readme-stats.vercel.app/api?username=key-pro&show_icons=true&include_all_commits=true&locale=ja&hide_border=true&bg_color=060a12&title_color=67e8f9&icon_color=2dd4bf&text_color=e2e8f0" alt="GitHub stats" height="170">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=key-pro&layout=compact&locale=ja&hide_border=true&langs_count=6&bg_color=060a12&title_color=67e8f9&text_color=e2e8f0" alt="Top languages" height="170">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060a12,100:22d3ee&height=80&section=footer&fontSize=1&text=&desc=" alt="" width="100%">
 
 </div>
