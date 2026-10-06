@@ -4,7 +4,7 @@
   <img src="assets/header.gif" alt="Kamimura Yuki。Laravel で投資分析サイトを公開" width="100%">
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2018%2C942%20%E9%8A%98%E6%9F%84%E3%81%A7%E3%81%99;%E4%BC%9A%E5%93%A1%E3%81%AF%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%80%81%E4%BF%9D%E6%9C%89%E8%A8%98%E9%8C%B2%E3%80%81%E9%8A%98%E6%9F%84%E6%AF%94%E8%BC%83;%E6%97%A5%E8%B6%B3%E3%81%AF%E6%97%A5%E6%9C%AC%E3%83%BB%E7%B1%B3%E5%9B%BD%E3%83%BB%E9%A6%99%E6%B8%AF%E3%83%BB%E8%8B%B1%E5%9B%BD%E3%83%BB%E3%83%89%E3%82%A4%E3%83%84%E3%83%BB%E3%82%AB%E3%83%8A%E3%83%80;FX%20%E3%81%AF%E5%AF%BE%E5%86%86%E3%83%AC%E3%83%BC%E3%83%88%E3%80%82%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AF%E3%82%AA%E3%82%B7%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A8%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" alt="スクリーナーは 18,942 銘柄です">
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E3%80%81FMP%E5%AF%BE%E5%BF%9C%E3%81%AE%E6%B5%B7%E5%A4%9646%E5%B8%82%E5%A0%B4%E3%81%AE%E6%97%A5%E8%B6%B3;%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2018%2C942%20%E9%8A%98%E6%9F%84%E3%81%A7%E3%81%99;%E4%BC%9A%E5%93%A1%E3%81%AF%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%80%81%E4%BF%9D%E6%9C%89%E8%A8%98%E9%8C%B2%E3%80%81%E9%8A%98%E6%9F%84%E6%AF%94%E8%BC%83;FX%20%E3%81%AF%E5%AF%BE%E5%86%86%E3%83%AC%E3%83%BC%E3%83%88%E3%80%82%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AF%E3%82%AA%E3%82%B7%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A8%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" alt="日本株と、FMP対応の海外46市場の日足">
 
 <br>
 
@@ -32,23 +32,26 @@ Kamimura Yuki です。
 
 ## 公開中のサイト
 
-**[trade-information](https://trade-information.laravel.cloud/Meigara)** は、2026年にリリースした投資分析サイトです。スクリーナーは誰でも使え、銘柄の詳細、FX、取引ルール、ウォッチリスト、保有記録、銘柄比較は会員向けです。無料データの株価は遅延します。
+**[trade-information](https://trade-information.laravel.cloud/Meigara)** は、2026年にリリースした投資分析サイトです。日本株と、Financial Modeling Prep が対応する海外市場の日足を同じ画面で探せます。スクリーナーは誰でも使え、銘柄の詳細、FX、取引ルール、ウォッチリスト、保有記録、銘柄比較は会員向けです。無料データの株価は遅延します。
 
 | | |
 | --- | --- |
-| スクリーナー | 18,942銘柄。企業名と証券コードで検索し、アジア / アメリカ / 欧州で絞り込み。一覧からチャートへ進める |
-| 日足 | 日本、米国、香港、英国、ドイツ、カナダ |
+| スクリーナー | 18,942銘柄、46市場。企業名と証券コードで検索し、地域で絞り込み。一覧からチャートへ進める |
+| 日足 | 日本株と、FMP 対応の海外市場 |
 | FX | 対円レート（会員向け） |
 | テクニカル | オシレーターと移動平均（会員向けの銘柄詳細） |
 | 会員向け | ウォッチリスト、保有記録、銘柄比較、分析50。詳細、FX、取引ルールも含む |
 | 入り方 | パスワードは使わず、メールのログインリンク、パスキー、Google |
-| データ | J-Quants、Alpha Vantage、Open Exchange Rates、Google |
+| データ | J-Quants、Financial Modeling Prep、Open Exchange Rates、Google |
 
 | 地域 | 市場 |
 | --- | --- |
-| アジア | 日本株、香港株 |
-| アメリカ | 米国株、カナダ株 |
-| 欧州 | 英国株、ドイツ株 |
+| アジア | 日本、中国、香港、台湾、韓国、インド、シンガポール、タイ、マレーシア、インドネシア、フィリピン、ベトナム |
+| アメリカ | 米国、カナダ、ブラジル、メキシコ、チリ、アルゼンチン |
+| 欧州 | 英国、ドイツ、フランス、オランダ、ベルギー、スペイン、イタリア、スイス、スウェーデン、ノルウェー、デンマーク、フィンランド、ポルトガル、アイルランド、オーストリア、ポーランド、ギリシャ、チェコ、ハンガリー |
+| オセアニア | オーストラリア、ニュージーランド |
+| アフリカ | 南アフリカ、エジプト |
+| 中東 | イスラエル、サウジアラビア、UAE、カタール、トルコ |
 
 <img src="assets/divider.gif" alt="" width="100%">
 
@@ -90,7 +93,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 | 2022 | Django でブログ（[firstProject](https://github.com/key-pro/firstProject)）と、アカウント・カテゴリ付きの写真投稿（[photoProject](https://github.com/key-pro/photoProject)）。[React + TypeScript](https://github.com/key-pro/react-typescript-app) の画面演習。Java で[電卓](https://github.com/key-pro/java-calculator)、[デスクトップアプリ](https://github.com/key-pro/java_application)、[Web システム](https://github.com/key-pro/java_websystem)。[Video.js](https://github.com/key-pro/Video.js-Yes-improvement) の改善前後を並べた比較 |
 | 2024 | Todo、メモ、電卓、ゲームを PHP / Python / JavaScript / C# で書き分け（[Training_data_2024](https://github.com/key-pro/Training_data_2024)）。株価アプリを Django と Docker に載せる |
 | 2025 | PDF を結合するデスクトップアプリ。FX と米国株の Streamlit ダッシュボード |
-| 2026 | [trade-information](https://trade-information.laravel.cloud/Meigara) を Laravel でリリース。6市場の日足スクリーナーに加え、会員はウォッチ、保有、比較、対円レート、テクニカル |
+| 2026 | [trade-information](https://trade-information.laravel.cloud/Meigara) を Laravel でリリース。日本株と FMP 対応の海外46市場をスクリーナーで検索でき、会員はウォッチ、保有、比較、対円レート、テクニカル |
 
 <div align="center">
 
