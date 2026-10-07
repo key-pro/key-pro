@@ -4,7 +4,7 @@
   <img src="assets/header.gif" alt="Kamimura Yuki。Laravel で投資分析サイトを公開" width="100%">
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E3%80%81FMP%E5%AF%BE%E5%BF%9C%E3%81%AE%E6%B5%B7%E5%A4%9646%E5%B8%82%E5%A0%B4%E3%81%AE%E6%97%A5%E8%B6%B3;%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2018%2C942%20%E9%8A%98%E6%9F%84%E3%81%A7%E3%81%99;%E4%BC%9A%E5%93%A1%E3%81%AF%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%80%81%E4%BF%9D%E6%9C%89%E8%A8%98%E9%8C%B2%E3%80%81%E9%8A%98%E6%9F%84%E6%AF%94%E8%BC%83;FX%20%E3%81%AF%E5%AF%BE%E5%86%86%E3%83%AC%E3%83%BC%E3%83%88%E3%80%82%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AF%E3%82%AA%E3%82%B7%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A8%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" alt="日本株と、FMP対応の海外46市場の日足">
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E3%80%81FMP%E5%AF%BE%E5%BF%9C%E3%81%AE%E6%B5%B7%E5%A4%9646%E5%B8%82%E5%A0%B4%E3%81%AE%E6%97%A5%E8%B6%B3;%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2014%2C524%20%E9%8A%98%E6%9F%84%E3%81%A7%E3%81%99;%E4%BC%9A%E5%93%A1%E3%81%AF%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%80%81%E4%BF%9D%E6%9C%89%E8%A8%98%E9%8C%B2%E3%80%81%E9%8A%98%E6%9F%84%E6%AF%94%E8%BC%83;FX%20%E3%81%AF%E5%AF%BE%E5%86%86%E3%83%AC%E3%83%BC%E3%83%88%E3%80%82%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AF%E3%82%AA%E3%82%B7%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A8%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" alt="日本株と、FMP対応の海外46市場の日足">
 
 <br>
 
@@ -36,7 +36,7 @@ Kamimura Yuki です。
 
 | | |
 | --- | --- |
-| スクリーナー | 18,942銘柄、46市場。企業名と証券コードで検索し、地域で絞り込み。一覧からチャートへ進める |
+| スクリーナー | 14,524銘柄、46市場。企業名と証券コードで検索し、地域で絞り込み。一覧からチャートへ進める |
 | 日足 | 日本株と、FMP 対応の海外市場 |
 | FX | 対円レート（会員向け） |
 | テクニカル | オシレーターと移動平均（会員向けの銘柄詳細） |
