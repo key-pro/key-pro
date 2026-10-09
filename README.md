@@ -4,7 +4,7 @@
   <img src="assets/header.gif" alt="Kamimura Yuki。Laravel で投資分析サイトを公開" width="100%">
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%20FMP%20%E5%AF%BE%E5%BF%9C%E3%81%AE%E6%B5%B7%E5%A4%96%E5%B8%82%E5%A0%B4%E3%81%AE%E6%97%A5%E8%B6%B3;%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2014%2C524%20%E9%8A%98%E6%9F%84%E3%80%82%E7%B5%9E%E3%82%8A%E8%BE%BC%E3%81%BF%E3%81%AF%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E7%B1%B3%E5%9B%BD%E6%A0%AA;%E4%BC%9A%E5%93%A1%E3%81%AF%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%80%81%E4%BF%9D%E6%9C%89%E8%A8%98%E9%8C%B2%E3%80%81%E9%8A%98%E6%9F%84%E6%AF%94%E8%BC%83;FX%20%E3%81%AF%E5%AF%BE%E5%86%86%E3%83%AC%E3%83%BC%E3%83%88%E3%80%82%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AF%E3%82%AA%E3%82%B7%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E3%81%A8%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87" alt="日本株と FMP 対応の海外市場の日足">
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=600&size=22&duration=2800&pause=700&color=67E8F9&center=true&vCenter=true&width=980&height=48&lines=%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E6%B5%B7%E5%A4%96%E5%B8%82%E5%A0%B4%E3%81%AE%E6%97%A5%E8%B6%B3%E3%82%92%E5%90%8C%E3%81%98%E7%94%BB%E9%9D%A2%E3%81%A7;%E6%A0%AA%E4%BE%A1%E3%81%AF%E6%97%A5%E8%B6%B3%E3%81%A7%E3%80%81%E5%A4%A7%E5%BC%95%E3%81%91%E5%BE%8C%E3%81%AB%E6%9B%B4%E6%96%B0%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99;%E5%BA%83%E5%91%8A%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%81%E8%AA%AD%E3%82%80%E4%BA%BA%E3%81%AE%E5%AF%84%E4%BB%98%E3%81%A7%E7%B6%9A%E3%81%84%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99;%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AF%2014%2C524%20%E9%8A%98%E6%9F%84%E3%80%82%E6%97%A5%E6%9C%AC%E6%A0%AA%E3%81%A8%E7%B1%B3%E5%9B%BD%E6%A0%AA" alt="日本株と海外市場の日足を同じ画面で">
 
 <br>
 
@@ -32,17 +32,18 @@ Kamimura Yuki です。
 
 ## 公開中のサイト
 
-**[trade-information](https://trade-information.laravel.cloud/Meigara)** は、2026年にリリースした投資分析サイトです。日本株と、Financial Modeling Prep が対応する海外市場の日足を同じ画面で探せます。スクリーナーは誰でも使え、銘柄の詳細、FX、取引ルール、ウォッチリスト、保有記録、銘柄比較は会員向けです。無料データの株価は遅延します。
+**[trade-information](https://trade-information.laravel.cloud/Meigara)** は、2026年にリリースした投資分析サイトです。日本株と海外市場の日足を同じ画面で探せます。スクリーナーは誰でも使え、銘柄の詳細、FX、取引ルール、ウォッチリスト、保有記録、銘柄比較は会員向けです。株価は日足で、大引け後に更新されます。広告は載せず、[読む人の寄付](https://trade-information.laravel.cloud/donate)で続けています。寄付は任意で、会員機能の対価ではありません。
 
 | | |
 | --- | --- |
 | スクリーナー | 14,524銘柄。企業名と証券コードで検索し、日本株と米国株で絞り込み。一覧からチャートへ進める |
-| 日足 | 日本株と、FMP 対応の海外市場 |
+| 日足 | 日本株と海外市場。画面では FMP 対応とも表示 |
 | FX | 対円レート（会員向け） |
 | テクニカル | オシレーターと移動平均（会員向けの銘柄詳細） |
 | 会員向け | ウォッチリスト、保有記録、銘柄比較、分析50。詳細、FX、取引ルールも含む |
 | 入り方 | パスワードは使わず、メールのログインリンク、パスキー、Google |
-| データ | J-Quants、Financial Modeling Prep、Open Exchange Rates、Google |
+| 更新 | 株価は日足。大引け後に更新 |
+| 運営 | 広告なし。寄付は会員画面で、1回または毎月。見える機能は変わらない |
 
 | 地域 | 市場 |
 | --- | --- |
@@ -89,7 +90,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 | 2022 | Django でブログ（[firstProject](https://github.com/key-pro/firstProject)）と、アカウント・カテゴリ付きの写真投稿（[photoProject](https://github.com/key-pro/photoProject)）。[React + TypeScript](https://github.com/key-pro/react-typescript-app) の画面演習。Java で[電卓](https://github.com/key-pro/java-calculator)、[デスクトップアプリ](https://github.com/key-pro/java_application)、[Web システム](https://github.com/key-pro/java_websystem)。[Video.js](https://github.com/key-pro/Video.js-Yes-improvement) の改善前後を並べた比較 |
 | 2024 | Todo、メモ、電卓、ゲームを PHP / Python / JavaScript / C# で書き分け（[Training_data_2024](https://github.com/key-pro/Training_data_2024)）。株価アプリを Django と Docker に載せる |
 | 2025 | PDF を結合するデスクトップアプリ。FX と米国株の Streamlit ダッシュボード |
-| 2026 | [trade-information](https://trade-information.laravel.cloud/Meigara) を Laravel でリリース。スクリーナーは日本株と米国株。会員はウォッチ、保有、比較、対円レート、テクニカル |
+| 2026 | [trade-information](https://trade-information.laravel.cloud/Meigara) を Laravel でリリース。スクリーナーは日本株と米国株。広告は載せず、寄付で続けている |
 
 <div align="center">
 
