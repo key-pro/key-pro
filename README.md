@@ -32,7 +32,7 @@ Kamimura Yuki です。
 
 ## 公開中のサイト
 
-**[trade-information](https://trade-information.laravel.cloud/)** は、画面の題は投資分析、ロゴの横は夜5分です。画面に張り付かない、夜5分の株式チェックです。デイトレのような秒単位の売買は不要で、仕事終わりに1日1回更新の株価を見ます。2026年に Laravel で公開しました。会員登録は無料です。売買の推奨ではありません。広告は載せず、[読む人の寄付](https://trade-information.laravel.cloud/donate)で続けています。寄付しなくても、使える機能は同じです。
+**[trade-information](https://trade-information.laravel.cloud/)** は、画面の題は投資分析、ロゴの横は夜5分です。画面に張り付かない、夜5分の株式チェックです。デイトレのような秒単位の売買は不要で、仕事終わりに落ち着いて確認できる、1日1回更新のシンプルな分析サイトです。2026年に Laravel 13 で公開しています。会員登録は無料です。売買の推奨ではありません。広告は載せず、[読む人の寄付](https://trade-information.laravel.cloud/donate)で続けています。寄付しなくても、使える機能は同じです。
 
 ログインなしで見られます。銘柄一覧は、会員登録なしで開けます。
 
@@ -43,7 +43,7 @@ Kamimura Yuki です。
 | 日本株 | 平日の夕方（取引終了後）に、その日の株価が更新されます |
 | 米国株 | 米国の銘柄は、ドル建ての、その日の終わりの株価です |
 
-登録なしで、検索するか、トヨタ、三菱UFJ、NTT、Apple、Microsoft をタップすると、株価と配当が出ます。サイト紹介では、トヨタ自動車、ソニーグループ、Apple、Microsoft の終値が出ます。
+登録なしで、1社だけ見てみることもできます。検索するか、トヨタ、三菱UFJ、NTT、Apple、Microsoft をタップすると、終値、配当利回り、PER、買うのに必要な金額が出ます。売買の推奨ではありません。サイト紹介では、トヨタ自動車、ソニーグループ、Apple、Microsoft の終値が出ます。
 
 NISA・成長投資枠で個別株を探す人向けです。インデックスの積立を続けたまま、高配当の株や、知っている大企業を見てみたいときに使います。毎日開く必要はありません。分析ツールは100種類あります。最初はこの4つです。
 
@@ -99,7 +99,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 
 | 用途 | 技術 |
 | --- | --- |
-| 公開サイト | Laravel、PHP。会員ログインはメールリンク、パスキー、または外部アカウント |
+| 公開サイト | Laravel 13、PHP 8.5。会員ログインはメールリンク、パスキー、または外部アカウント |
 | 分析画面 | Python、Streamlit、pandas、Plotly、yfinance |
 | API と実行環境 | Django REST framework、Docker、MySQL |
 | 画面の基礎 | React、TypeScript、styled-components、Java |
@@ -113,7 +113,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 | 2022 | Django でブログ（[firstProject](https://github.com/key-pro/firstProject)）と、アカウント・カテゴリ付きの写真投稿（[photoProject](https://github.com/key-pro/photoProject)）。[React + TypeScript](https://github.com/key-pro/react-typescript-app) の画面演習。Java で[電卓](https://github.com/key-pro/java-calculator)、[デスクトップアプリ](https://github.com/key-pro/java_application)、[Web システム](https://github.com/key-pro/java_websystem)。[Video.js](https://github.com/key-pro/Video.js-Yes-improvement) の改善前後を並べた比較 |
 | 2024 | Todo、メモ、電卓、ゲームを PHP / Python / JavaScript / C# で書き分け（[Training_data_2024](https://github.com/key-pro/Training_data_2024)）。株価アプリを Django と Docker に載せる |
 | 2025 | PDF を結合するデスクトップアプリ。FX と米国株の Streamlit ダッシュボード |
-| 2026 | [trade-information](https://trade-information.laravel.cloud/) を Laravel でリリース。画面の題は投資分析、ロゴの横は夜5分。夜5分、1日1回の株式チェック。日足のグラフは会員。分析ツールは100種類。広告は載せず、寄付で続けている |
+| 2026 | [trade-information](https://trade-information.laravel.cloud/) を Laravel 13（PHP 8.5）で公開。画面の題は投資分析、ロゴの横は夜5分。夜5分、1日1回の株式チェック。日足のグラフは会員。分析ツールは100種類。広告は載せず、寄付で続けている |
 
 <div align="center">
 
