@@ -42,21 +42,22 @@ Kamimura Yuki です。
 | --- | --- |
 | 世界マーケット相場 | 日米主要株価指数・先物・為替・暗号資産・コモディティ・債券利回りを網羅した相場ボード（日経平均、TOPIX、日経平均先物、東証グロース250、NYダウ、S&P500、NASDAQ100、SOX指数、ドル円、ユーロ円、ユーロドル、BTC/USD、WTI原油、金先物、米10年債利回り、日10年債利回り）。グリッド表示とヒートマップ表示の切替、リアルタイム連動、市場カテゴリ別フィルタ（日本市場、米国市場、為替・暗号資産、商品・金利）、各指数のミニスパークラインチャート、為替ペアから個別詳細への直接連携に対応 |
 | 見出し | 外部RSSが取れたときだけ出す。取れないときは「いま表示できる見出しはありません」。売買の見通しや架空のニュースは出さない |
-| マーケット・ファインダー | 業種別資金フロー・25日騰落レシオ（市場過熱度診断）・「セクター強弱ヒートマップ」、高配当・バリュー・成長等の「マルチファクター選別」、「決算・配当カレンダー」、[AI定量スコア診断](https://trade-information.laravel.cloud/simulator)への直接連携 |
+| 夜5分マイトレイ & 夜のクイック投資電卓 | 登録不要。5分フォーカス・タイマー、連続チェック記録、最大8銘柄の仮ピン留めができる「夜5分マイトレイ」と、買付・目標利益・PER適正値・新NISA複利節税試算ができる「夜のクイック投資電卓」をブラウザ上で利用可能 |
+| マーケット・ファインダー & スクリーナー | 東証主要業種・米国GICS11セクターの「セクター強弱ヒートマップ」、業種別資金フロー、25日騰落レシオ（市場過熱度診断）、新NISA長期成長・東証PBR1倍改革・連続増配・押し目候補など14種の「マルチ条件スクリーナー」、決算・配当カレンダー、[AI定量スコア診断](https://trade-information.laravel.cloud/simulator)への直接連携 |
 | 銘柄一覧・検索 | [14,624銘柄](https://trade-information.laravel.cloud/Meigara)（日本株・米国株・日米ETF・世界主要市場）を企業名・日本語名・英語別名・証券コード（ティッカー）から検索（検索欄は `/` キー、ヘッダーは ⌘K）。38市場（アジア12・南北アメリカ6・欧州14・オセアニア2・中東3・アフリカ1）の国別フィルタ、テーマ別（高配当、メガバンク、商社、半導体、自動車、通信、米国テック、米国ETF）クイック絞り込み |
 | 終値・騰落チェック & 今夜の終値 | その日の取引が終わったときの終値と前日比騰落を表示（取得不可時は「終値なし」）。一覧の値動き集計（上昇・下落・変わらず、平均騰落率、最大上昇・下落）。トップには代表銘柄の終値に加え、市場の向き・両端の終値・今夜詳細を開く件数・NISA成長投資枠で買える単元数など、終値だけで答える問いを並べる |
 | 全銘柄の株価・配当・割安度プレビュー | トヨタ 7203、三菱UFJ 8306、NTT 9432、Apple AAPL、Microsoft MSFT をはじめ、登録されている全銘柄についてログイン不要で終値、日足チャート（終値推移・高値/安値）、配当利回り、PER、PBR、100株（米国株は1株）の必要資金・年間配当目安を確認可能。[1ページ要約](https://trade-information.laravel.cloud/try/7203)（`/try/銘柄コード`）もある |
 | [分析ラボ](https://trade-information.laravel.cloud/lab) | 日足に特化した公開の分析画面。終値スクリーナーと、テクニカル・マクロ・比較への入口 |
-| [銘柄比較](https://trade-information.laravel.cloud/compare) | 最大4銘柄を並べ、株価・騰落・配当・PER・PBRを登録なしで見比べられる。並びの保存だけ会員向け |
+| [銘柄比較](https://trade-information.laravel.cloud/compare) | 最大4銘柄を並べ、株価・騰落・配当・PER・PBR・ROEを登録なしで見比べられる。5軸マルチファクター重ね合わせレーダー診断に対応。並びの保存だけ会員向け |
 | [経済指標連動分析](https://trade-information.laravel.cloud/economic) | 金利・為替・景気指標と銘柄への影響を、登録なしで確認できるマクロ分析 |
 | [テクニカル分析](https://trade-information.laravel.cloud/tools/technical-100) | 日足ベースの100手法スキャナー。秒足ではなく、終値の型を見る |
 | [外国為替レート（FX）](https://trade-information.laravel.cloud/FX) | 主要通貨ペアの対円レートと日足チャート、テクニカル指標を登録なしで確認。全通貨一覧と為替テクニカルも公開。詳細の保存は会員向け |
 | [資金計画](https://trade-information.laravel.cloud/plan) | 資金・リスク・エントリーから株数を試算。計算は登録不要、ウォッチへの水準保存だけ会員向け |
-| [資産推移・FIRE・定量バックテスト総合ラボ](https://trade-information.laravel.cloud/simulator) | 登録不要。「積立・FIRE条件設定」（NISA非課税 vs 特定口座 vs 投資元本）、「5軸マルチファクターAI/定量銘柄スコアリング」、「売買ルール・積立戦略ヒストリカル検証ラボ」、「配当スノーボール（再投資複利）」 |
+| [資産推移・FIRE・定量検証総合ラボ](https://trade-information.laravel.cloud/simulator) | 登録不要。「積立・FIRE条件設定」（NISA非課税 vs 特定口座 vs 投資元本）、「5軸マルチファクターAI/定量銘柄スコアリング」、「日足テクニカル戦略ヒストリカル検証＆モンテカルロ確率分布試算」、「配当スノーボール（再投資複利）」 |
 | [100種類の分析計算ツール](https://trade-information.laravel.cloud/tools) | 登録なしで計算できる。まず使うのは配当金、割安さの目安、買うのに必要な金額の3つ。見える数は見方で変わり、無料の初心者は8種、NISAは16種。中級・上級の案内では50種 / 100種 |
 | [市場取引ルール・NISA解説](https://trade-information.laravel.cloud/Tradingrules) | 今夜の市場状況、日本株（前場・後場・大引け・単元株・T+2受渡）と米国株（冬時間/夏時間・現地T+1受渡）の取引時間、新NISA、FXの基本、日米の銘柄コード体系 |
 | [ガイド](https://trade-information.laravel.cloud/guide)・[データの見方](https://trade-information.laravel.cloud/desk) | 夜5分の使い方、投資用語集、よくある質問、日足の見方。データの出典（J-Quants / Financial Modeling Prep）と終値が載るタイミング |
-| 表示カスタマイズ・サイトマップ・SEO | 昼（ライト）と夜（ダーク）のテーマ切替。投資家モード（初心者・NISA・中級者・上級者）と[見方診断](https://trade-information.laravel.cloud/mode/hear)（3問）。PC向けデスク帯・モバイル向けボトムドックバー。[サイトマップ](https://trade-information.laravel.cloud/sitemap)、XML サイトマップ（`/sitemap.xml`）、パンくず、JSON-LD |
+| 表示カスタマイズ・発見性・SEO | 昼（ライト）と夜（ダーク）のテーマ切替。投資家モード（初心者・NISA・中級者・上級者）と[見方診断](https://trade-information.laravel.cloud/mode/hear)（3問）。PC向けデスク帯・モバイル向けボトムドックバー。[サイトマップ](https://trade-information.laravel.cloud/sitemap)、XML サイトマップ（`/sitemap.xml`）、ARDマニフェスト（`/.well-known/ard.json`）、AIエージェント向け `llms.txt`、パンくず、JSON-LD |
 | [無料プランと有料プラン](https://trade-information.laravel.cloud/plans) | 無料は初心者・NISA（自動課金なし）。中級は月額 1,980円（年額 19,800円）、上級は月額 2,980円（年額 29,800円）として案内。特商法では、サブスクの開始時期は未定で、現在は定期課金・自動更新の決済は発生しないと記載 |
 | 投げ銭（開発支援）・お知らせ・規約 | 任意の[投げ銭](https://trade-information.laravel.cloud/tip)（PayPal。クレジットカード / デビット / PayPal残高。100円〜100,000円、プリセット 500 / 1,000 / 3,000 / 5,000円。11月の維持ゴールとサポーターボード）。[お知らせ](https://trade-information.laravel.cloud/announcements)（iOSアプリ開発開始）、[運営者情報](https://trade-information.laravel.cloud/about)（運営名義はメイプルシステム開発）、[利用規約](https://trade-information.laravel.cloud/terms)、[プライバシーポリシー](https://trade-information.laravel.cloud/privacypolicy)、[免責事項](https://trade-information.laravel.cloud/disclaimer)、[特定商取引法に基づく表記](https://trade-information.laravel.cloud/tokushoho)、お問い合わせ |
 
@@ -118,7 +119,7 @@ Tkinter の画面に PDF をドロップすると、ファイル名の数字順�
 | 2022 | Django でブログ（[firstProject](https://github.com/key-pro/firstProject)）と、アカウント・カテゴリ付きの写真投稿（[photoProject](https://github.com/key-pro/photoProject)）。[React + TypeScript](https://github.com/key-pro/react-typescript-app) の画面演習。Java で[電卓](https://github.com/key-pro/java-calculator)、[デスクトップアプリ](https://github.com/key-pro/java_application)、[Web システム](https://github.com/key-pro/java_websystem)。[Video.js](https://github.com/key-pro/Video.js-Yes-improvement) の改善前後を並べた比較 |
 | 2024 | Todo、メモ、電卓、ゲームを PHP / Python / JavaScript / C# で書き分け（[Training_data_2024](https://github.com/key-pro/Training_data_2024)）。株価アプリを Django と Docker に載せる |
 | 2025 | PDF を結合するデスクトップアプリ。FX と米国株の Streamlit ダッシュボード |
-| 2026 | [trade-information](https://trade-information.laravel.cloud/) を Laravel 13（PHP 8.5）でリリース。画面の題は投資分析（夜5分の投資分析ラボ）、ロゴの横は夜5分。終値・日足・比較・マクロ指標を登録なしで見る株式チェック。14,624銘柄、38市場、マーケット・ファインダー、分析ラボ、テクニカル100手法、経済指標連動分析、FX、資金計画、FIREラボ、計算ツールを公開。ウォッチ・保有・メモなど保存して戻る機能は無料会員。初心者・NISAは無料、中級・上級は有料プランとして案内（特商法上、定期課金の開始は未定）。iOSアプリ（iPhone/iPad対応）の開発を正式開始。Google AdSense と PayPal 投げ銭で運営 |
+| 2026 | [trade-information](https://trade-information.laravel.cloud/) を Laravel 13（PHP 8.5）でリリース。画面の題は投資分析（夜5分の投資分析ラボ）、ロゴの横は夜5分。終値・日足・比較・マクロ指標を登録なしで見る株式チェック。14,624銘柄、38市場、夜5分マイトレイ・クイック投資電卓、5軸マルチファクター銘柄比較レーダー、マーケット・ファインダー＆スクリーナー、分析ラボ、定量検証ラボ（モンテカルロ試算）、テクニカル100手法、経済指標連動分析、FX、資金計画、FIREラボ、計算ツールを公開。ウォッチ・保有・メモなど保存して戻る機能は無料会員。初心者・NISAは無料、中級・上級は有料プランとして案内（特商法上、定期課金の開始は未定）。iOSアプリ（iPhone/iPad対応）の開発を正式開始。Google AdSense と PayPal 投げ銭で運営 |
 
 <div align="center">
 
